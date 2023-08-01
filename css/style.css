@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #D9D9D9;
+    font-family: 'lato', sans-serif ;
+    font-size: 300;
+    color: #1A0768;
+}
+header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 40px;
+    box-shadow: 0 2px 1px rgb(0 0 0 / 9%), 0 4px 2px rgb(0 0 0 / 9%), 0 8px 4px rgb(0 0 0 / 9%), 0 16px 8px rgb(0 0 0 / 9%), 0 32px 16px rgb(0 0 0 / 9%);
+    background-color: #8d8d8d;
+}
+nav a{
+    font-size: 2.0rem;
+    text-decoration: none;
+    padding: 10px;
+    color: #1A0768;
+}
+nav :hover{
+    color: aliceblue;
+    background-color: #1A0768;
+}
+header :hover img{
+    transform: scale(1.2);
+}
+#heroindex{
+    background-image: url(/img/patrik-storm-alstra-pictures-lREoM0C_YWQ-unsplash.jpg);
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 362px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+#h1index{
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    height: 0px;
+    position: relative;
+    top: 15px;
+}
+#heroindex img{
+    height: 208px;
+    width: 130px;
+}
+#heroindex h3{
+    color: #1A0768;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#heroindex p{
+    color: aliceblue; 
+}
+#heroindex a{
+    text-decoration: none;
+    text-align: center;
+}
+#heroindex :hover img{
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+#categorias{
+    width: 900px;
+    height: 45px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: space-evenly;
+}
+#categorias a{
+    font-size: 1.6rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1A0768;
+    border:solid 0.1px aliceblue ;
+    border-radius: 15px;
+}
+#categorias :hover{
+    color: rgb(158, 166, 173);
+    border: rgb(158, 166, 173);
+}
+.h2-parte-principal{
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+.parte-principal{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.parte-principal img{
+    width: 106px;
+    height: 167px;
+    box-shadow: 0 2px 1px rgb(0 0 0 / 9%), 0 4px 2px rgb(0 0 0 / 9%), 0 8px 4px rgb(0 0 0 / 9%), 0 16px 8px rgb(0 0 0 / 9%), 0 32px 16px rgb(0 0 0 / 9%);
+}
+.parte-principal div{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 14px;
+}
+.parte-principal a{
+    text-decoration: none;
+    color: green;
+}
+.mas{
+   padding: 12px;
+    border: solid;
+    border-radius: 50px ;
+    background-color: #000000;
+}
+
+.mas a{
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.mas :hover{
+    transform: scale(1.1);
+}
+footer{
+    min-height: 107px;
+    background-color:#1A0768;
+}
+#items{
+    width: 1100px;
+    margin: auto; 
+
+    min-height: 107px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+    #items a{
+        text-decoration: none;
+    }
+
+    #redes a img{
+        width: 20px;
+        margin: 6px;
+    }
+
+    #textosFooter{
+        display: flex;
+
+        color: #fff;
+    }
+        #textosFooter ul{
+            margin-left: 60px;
+        }
+        #textosFooter li{
+            list-style-type: none; /* quitar bullet de lista */
+            margin-bottom: 5px;
+        }
+        .tituloLista{
+            font-weight: 600;
+            margin-bottom: 12px !important;
+        }
+
+/*libro*/
+#h2-libros{
+    margin: auto;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+#libros{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+#libros img{
+    height: 208px;
+    width: 130px;
+}
+#libros a{
+    text-decoration: none;
+    color: green;
+    
+}
+#libros a p{
+    padding-bottom: 10px;
+}
+#siguientes{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+}
+#siguientes a{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #1A0768;
+}
+#siguientes a img{
+        width: 20px;
+        margin: 6px;
+        align-items: center;
+    }
+/*categorias*/
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 940px;
+    gap: 15px;
+    margin: auto;
+    justify-content:center ;
+    align-items: center ;
+    height: 700px;
+}
+.card{
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    padding: 10px 30px;
+    margin: auto;
+    border: 2%;
+    border: 1px solid #ffffff ;
+    transition: all .4s ease-out;
+    box-shadow: 0px 3px 5px 0px rgb(0,0,0,0.3);
+    text-align: center;
+    background-color: #1A0768;
+}
+.card:hover{
+    height: 600px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0,0.5);
+}
+.card-encabezado img{
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    object-fit: cover ;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+.card-contenido li{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+.card-contenido a{
+    text-decoration: none;
+}
+.card-contenido a :hover{
+    color: #8d8d8d;
+}
+
+
+        
